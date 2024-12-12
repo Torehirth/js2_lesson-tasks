@@ -2,15 +2,18 @@
   "name": "js-2_lesson_tasks",
   "version": "1.0.0",
   "description": "- Debugging\r - JS Docs\r - JSON\r - Local Storage\r - Destucturing\r - Map\r - Set\r - Classes\r - Advanced Topics",
-  "main": "index.js",
+  "main": "tailwind.config.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch --poll",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch --poll",
     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.57.1",
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0",
     "tailwindcss": "^3.4.16"
   }
 }
